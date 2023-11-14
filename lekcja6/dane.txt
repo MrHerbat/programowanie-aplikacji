@@ -1,0 +1,10 @@
+Kowalski;16
+Duda;43
+Świstak;23
+Daszewski;19
+Kamień;26
+Zalewski;34
+Dombrowski;52
+Dusza;14
+Greliak;17
+Wilk;19
