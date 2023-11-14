@@ -1,0 +1,8 @@
+        Nowak Sulewski Historia
+4 3 
+Matematyka
+2 1 
+Informatyka
+5 5 
+J. Polski
+3 2 

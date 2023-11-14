@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <button onclick="<a href='/zadanie2.php'>">Kraje</button> 
-</body>
-</html>
 <?php
+$file = fopen("oceny.txt","w");
 $oceny=Array(
     "Historia"=>Array("Nowak"=>4,"Sulewski"=>3),
     "Matematyka"=>Array("Nowak"=>2,"Sulewski"=>1),
@@ -20,18 +10,24 @@ echo "<table border='1'>";
 echo "<tr>";
 echo "<th></th>";
 $x=0;
+fwrite($file,"        ");
 foreach ($oceny as $przedmioty => $nazwiska) 
 {
     if($x<1)
     foreach ($nazwiska as $naz => $ocena) {
         echo "<td>".$naz."</td>";
+        fwrite($file,$naz." ");
     }
+    fwrite($file,"\n");
     echo "</tr>";
     echo "<tr><th>".$przedmioty."</th>";
+    fwrite($file,$przedmioty."\n");
     foreach ($nazwiska as $naz => $ocena) {
         echo "<td>".$ocena."</td>";
+        fwrite($file,$ocena." ");
     }
     echo "</tr>";
+    fwrite($file, "\n");
     echo "<br>";
     $x++;
 }
