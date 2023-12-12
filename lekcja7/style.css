@@ -1,0 +1,30 @@
+body{
+    width: 800px;
+    height: 750px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: inline-block;
+}
+#main{
+    display: flex;
+    width: 100%;
+}
+#menu{
+    flex: 1;
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+}
+#tresc{
+    flex:3;
+    font-style: italic;
+    width: 600px;
+    display: inline-block;
+    text-align: center;
+}
+#number{
+    font-style: italic;
+}
+button{
+    text-transform: uppercase;
+}
