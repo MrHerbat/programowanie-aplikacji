@@ -1,0 +1,8 @@
+Mechanik
+Kelner
+Kucharz
+Lekarz
+Programista
+Informatyk
+Sprzedawca
+Elektryk
