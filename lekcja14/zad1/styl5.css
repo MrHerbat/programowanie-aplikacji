@@ -1,0 +1,35 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header,footer{
+    display: flex;
+    background-color: Sienna;
+    color: white;
+    height: 150px;
+}
+main{
+    background-color: tan;
+    padding: 100px;
+}
+#hlewy,#flewy{
+    width: 40%;
+}
+#hsrodek,#fsrodek{
+    width: 50%;
+    font-size: 150%;
+}
+#hprawy,#fprawy{
+    text-align: center;
+    width: 10%;
+}
+a{
+    border: 1px dashed sienna;
+    background-color: tan;
+    color: sienna;
+    padding: 40px;
+    line-height: 150px;
+}
+li{
+    list-style-type:circle;
+}
